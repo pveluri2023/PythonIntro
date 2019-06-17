@@ -1,0 +1,5 @@
+number = int(input("Enter your number here: "))
+x = range(1,number)
+for element in x:
+  if(number%element==0):
+    print(element)
